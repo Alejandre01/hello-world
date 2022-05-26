@@ -1,4 +1,5 @@
 {
     "editor.guides.highlightActiveBracketPair": false,
-    "editor.hover.above": false
+    "editor.hover.above": false,
+    "editor.find.loop": true
 }
