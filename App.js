@@ -7,7 +7,7 @@ export default function App() {
     <View style={styles.container}>
       <Text style={{fontsize: 50}}>Hello World! It is from IS657.</Text>
       <StatusBar style="auto" />
-      <Button>Close</Button>
+      <Button title="Close" onPress={() => BackHandler.exitApp()} />
     </View>
   );
 }
